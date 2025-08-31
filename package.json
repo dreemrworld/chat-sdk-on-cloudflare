@@ -9,5 +9,9 @@
 	},
 	"devDependencies": {
 		"wrangler": "^4.33.1"
+	},
+	"dependencies": {
+		"agents": "^0.0.113",
+		"better-auth-cloudflare": "^0.2.4"
 	}
 }
