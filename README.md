@@ -14,8 +14,11 @@ Download the project to your computer and install needed packages with command:
 git clone https://github.com/dreemrworld/chat-sdk-on-cloudflare
 cd chat-sdk-on-cloudflare
 $ pnpm install
+
 $ pnpm dev 
+
 $ pnpm deploy
+
 
 Thats it!
 
@@ -32,9 +35,13 @@ Cloudflare workers
 ............
 
 **Cloudflare workers** offers a very generous free plan on everything you need
-**AI Gateway** - replaces OpenAI SDK   
+
+**AI Gateway** - replaces OpenAI SDK 
+
 **D1** - replaces Neon 
+
 **R2** - replaces Blob
+
 **KV** - replaces Resend 
 
 ............
