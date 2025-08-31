@@ -11,8 +11,9 @@ Link to the live version: https://chatgoat.dreemrworld.workers.dev
 **💾 Installation**
 Download the project to your computer and install needed packages with command:
 
-git clone https://github.com/dreemrworld/chat-sdk-on-cloudflare
+$ git clone https://github.com/dreemrworld/chat-sdk-on-cloudflare
 cd chat-sdk-on-cloudflare
+
 $ pnpm install
 
 $ pnpm dev 
