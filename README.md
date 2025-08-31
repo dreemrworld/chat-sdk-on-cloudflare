@@ -49,7 +49,7 @@ Cloudflare workers
 
 **Why this stack?**
 
-The **HTML, Tailwind, TypeScript \+ Workers** stack is technically superior for building high-performance, low-cost webapps because it is perfectly engineered for cloudflare's V8 edge javascript engine that also powers your favorite chromium web browser. I call it KISS (keep it super simple) edge stack because 99% of web projects do not require complex frameworks. In fact they only add unnecessary abstraction layers, higher latency, bloat, dependency hell and security vulnerabities. In the end your browser will display any framework as a html, css and javascript website that can be downloaded,edited and used offline by anyone. 
+The **HTML, Tailwind, TypeScript \+ Workers** stack is technically superior for building high-performance, low-cost webapps because it is perfectly engineered for cloudflare's V8 edge javascript engine that also powers your favorite chromium web browser like chrome, firefox, brave, edge and even perplexity. I call this the KISS (keep it super simple) edge stack. Why? 99% of web projects do not require complex frameworks. In fact they only add unnecessary abstraction layers, higher latency, bloat, dependency hell and security vulnerabities. In the end your browser will display any framework as a html, css and javascript website that can be downloaded,edited and used offline by anyone. 
 
 This project is deployed as less than **1mb**. Cloudflare workers has a 3mb limit. If you ever tried to deploy a nextjs project on cloudflare with an adapter then you have certainly crossed this limit before. With KISS edge stack you will never worry about the 3mb limit again. 
 
