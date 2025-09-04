@@ -24,7 +24,7 @@ Thats it!
 **🔧 Tech/framework used**
 
 **Front-end**
-TypeScript,Tailwind CSS, HTML 
+html,css, js 
 
 **Back-end**
 Cloudflare workers 
