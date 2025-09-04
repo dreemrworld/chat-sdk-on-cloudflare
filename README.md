@@ -1,29 +1,25 @@
-**🎉 Project Overview**
-Vercel Chat SDK deverceled and deployed on Cloudflare Workers. 
 
-............
+**🎉 Project Overview**
+[Vercel Chat SDK](https://vercel.com/blog/introducing-chat-sdk) deverceled and deployed on Cloudflare Workers. This has been in the making for a long time. To download my vercel deployed webapp [chat.goat.africa](chat.goat.africa) I used [saveweb2zip](https://saveweb2zip.com/en)  because it downloads any website into html, css and js. Although the javascript is unreadable to humans. This can be packaged either as a feature or a bug. Depends on you. **The point I am making is any website regardless of the framework it was made in can be downloaded as html,css and js and deployed on cloudflare workers.**** I do not condone intellectual property theft. As you can see i downloaded my own webapp, and Vercel markets their chatsdk as fully hackable and MIT licence. 
+
 
 **📍 Live**
 Link to the live version: https://chatgoat.dreemrworld.workers.dev
 
-............
 
 **💾 Installation**
 Download the project to your computer and install needed packages with command:
 
-$ git clone https://github.com/dreemrworld/chat-sdk-on-cloudflare
-cd chat-sdk-on-cloudflare
-
-$ pnpm install
-
-$ pnpm dev 
-
-$ pnpm deploy
-
+    $ git clone https://github.com/dreemrworld/chat-sdk-on-cloudflare
+    cd chat-sdk-on-cloudflare
+    
+    $ pnpm install
+    
+    $ pnpm dev 
+    
+    $ pnpm deploy
 
 Thats it!
-
-............
 
 **🔧 Tech/framework used**
 
@@ -33,8 +29,6 @@ TypeScript,Tailwind CSS, HTML
 **Back-end**
 Cloudflare workers 
 
-............
-
 **Cloudflare workers** offers a very generous free plan on everything you need
 
 **AI Gateway** - replaces OpenAI SDK 
@@ -43,9 +37,6 @@ Cloudflare workers
 
 **R2** - replaces Blob
 
-**KV** - replaces Resend 
-
-............
 
 **Why this stack?**
 
@@ -69,17 +60,13 @@ If you use cloudflare workers backend then all you'd need in theory is to add a 
 
 This stack wins on pure technical merit: simplicity, speed, cost, and global scale are built into its foundation
 
-............
-
 **Limitations**
 Right now this is only a front-end and may still have legacy code. Sharing with the FOSS community so we can improve together. 
 
-............
 
 If you encounter a problem, write to this e-mail address: carlos@goat.africa . 
 
-............
-
 May the yield be with you. Don't forget to leave a star!
  
+
 
